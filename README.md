@@ -25,7 +25,7 @@ You are provided with three sample datasets (in CSV).
 | Table | Column | Description |
 | :---- | :---- | :---- |
 | teams | team\_id (string) | Unique ID |
-|  | group\_activity (string) | Activity type of group e.g., football, cricket, rugby, etc. |
+|  | team\_activity (string) | Activity type of team e.g., football, cricket, rugby, etc. |
 |  | country\_code (string) | Alpha-3 country code of group e.g., NOR=Norway; GBR=United Kingdom; etc. |
 |  | created\_at (UTC timestamp) | System generated creation timestamp |
 | memberships | membership\_id | Unique ID |

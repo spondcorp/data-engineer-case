@@ -3,11 +3,13 @@ name = "data-engineer-case"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "flytekit>=1.15.3",
- "psycopg2-binary>=2.9.10",
- "pyspark>=3.5.5",
+    "flytekitplugins-spark>=1.15.3",
+    "psycopg2-binary>=2.9.10",
+    "pyspark>=3.5.5",
+    "setuptools>=78.1.0",
 ]
 
 [dependency-groups]

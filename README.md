@@ -5,6 +5,7 @@ We are using below technologies for this task.
 - Makefile to quickly run tasks in local
 - uv package manager
 - Flyte for workflow orchastration
+- PySpark for distributed processing
 - Docker and K8s for production deployment (Next steps)
 - Github actions for CI/CD pipelines (Next steps)
 

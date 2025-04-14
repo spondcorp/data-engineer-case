@@ -8,6 +8,10 @@ import os
 def daily_workflow(
     data_dir_path: FlyteDirectory, output_dir_path: str
 ) -> tuple[str, str]:
+    # TODO: Add tasks for following tasks:
+    # 1. Attendance rate
+    # 2. New vs. returning members
+    # 3. Events hosted per region
     daily_active_teams_data_path = daily_active_teams(
         data_dir_path=data_dir_path, output_dir_path=output_dir_path
     )

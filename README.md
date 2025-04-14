@@ -55,6 +55,7 @@ Spond provides a platform for organizing sports teams, events, and communication
 
 You are provided with three sample datasets (in CSV).
 
+
 | Table       | Column                       | Description                                                              |
 | :---------- | :--------------------------- | :----------------------------------------------------------------------- |
 | teams       | team_id (string)             | Unique ID                                                                |
@@ -77,6 +78,7 @@ You are provided with three sample datasets (in CSV).
 |             | member_id                    | Foreign Key                                                              |
 |             | rsvp_status                  | Enum (0=unanswered; 1=accepted; 2=declined)                              |
 |             | responded_at (UTC timestamp) | System generated creation timestamp                                      |
+
 
 # Requirements
 

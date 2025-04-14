@@ -19,6 +19,12 @@ To run pipeline locally on the test data (data directory), execute `make run_in_
 - These Flyte tasks execute PySpark code in local
 - Pyspark writes output data in `output` directory
 
+## View Analytics
+
+Execute `make run_streamlit` command which will start a local Streamlit based app and display "Daily Active Teams" in a bar chart.
+
+## Unit tests
+
 We can execute unit tests for this project using below command:
 
 ```

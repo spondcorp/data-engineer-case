@@ -2,10 +2,21 @@
 
 We are using below technologies for this task.
 
-- Flyte for workflow orchastration
+- Makefile to quickly run tasks in local
 - uv package manager
+- Flyte for workflow orchastration
 - Docker and K8s for production deployment (Next steps)
 - Github actions for CI/CD pipelines (Next steps)
+
+## Output data generation in local
+
+Execute `make dev-setup` target to install all the necessary dependencies. Please make sure that you have installed `uv` package manager before running any target in Makefile. Installation instructions for uv can be found [here](https://docs.astral.sh/uv/getting-started/installation/)
+
+To run pipeline locally on the test data (data directory), execute `make run_in_local` which will do the following:
+
+- Run Flyte workflow which will run the Flyte tasks to generate analytics data
+- These Flyte tasks execute PySpark code in local
+- Pyspark writes output data in `output` directory
 
 We can execute unit tests for this project using below command:
 

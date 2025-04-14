@@ -10,6 +10,7 @@ dependencies = [
     "psycopg2-binary>=2.9.10",
     "pyspark>=3.5.5",
     "setuptools>=78.1.0",
+    "streamlit>=1.44.1",
 ]
 
 [dependency-groups]

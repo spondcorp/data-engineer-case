@@ -10,3 +10,7 @@ run_in_local:
 	pyflyte run src/workflow.py daily_workflow \
 		--data_dir_path=${PWD}/data \
 		--output_dir_path=${PWD}/output
+
+run_streamlit:
+	streamlit run src/streamlit.py
+	
